@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/AlbumsApp.github.io/static/css/main.31d6cfe0.css",
-    "main.js": "/AlbumsApp.github.io/static/js/main.573d616a.js",
+    "main.css": "/AlbumsApp.github.io/static/css/main.9f375d77.css",
+    "main.js": "/AlbumsApp.github.io/static/js/main.d8fdd826.js",
     "index.html": "/AlbumsApp.github.io/index.html",
-    "main.573d616a.js.map": "/AlbumsApp.github.io/static/js/main.573d616a.js.map"
+    "main.9f375d77.css.map": "/AlbumsApp.github.io/static/css/main.9f375d77.css.map",
+    "main.d8fdd826.js.map": "/AlbumsApp.github.io/static/js/main.d8fdd826.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.573d616a.js"
+    "static/css/main.9f375d77.css",
+    "static/js/main.d8fdd826.js"
   ]
 }
