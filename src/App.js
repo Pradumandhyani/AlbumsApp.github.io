@@ -5,7 +5,7 @@ import AlbumsList from './AlbumsList.js';
 // import Navbar from './Navbar'
 import UpdateAlbum from './UpdateAlbum.js';
 
-export default class App extends Component {
+class App extends Component {
   constructor() {
     super();
     this.state = {
@@ -127,3 +127,4 @@ export default class App extends Component {
     )
   }
 }
+export default App;
