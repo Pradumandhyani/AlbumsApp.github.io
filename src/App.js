@@ -118,7 +118,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <Routes basename="/AlbumsApp.github.io">
+        <Routes >
           <Route path='/' exact element={<AlbumsList albums={this.state.albums} setUpdateAlbum={this.setUpdateAlbum} deleteAlbumFromList={this.deleteAlbumFromList} />}></Route>
           <Route path='/add-album' element={<AddAlbum addAlbumToList={this.addAlbumToList} />}></Route>
           <Route path='/update-album' element={<UpdateAlbum album={this.state.updateAlbum} updateAlbumInList={this.updateAlbumInList} />}></Route>
