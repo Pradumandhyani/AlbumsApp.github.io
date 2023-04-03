@@ -1,6 +1,6 @@
 {
   "name": "albumsapp",
-  "homepage": "https://Pradumandhyani.github.io/AlbumsApp.github.io",
+  "homepage": "https://pradumandhyani.github.io/AlbumsApp.github.io",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -14,8 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
