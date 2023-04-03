@@ -1,6 +1,6 @@
 import React from 'react'
-import List from './List'
-import Navbar from './Navbar'
+import List from './List.js'
+import Navbar from './Navbar.js'
 
 //get all albums list from app and then call list component for each list on the albums
 const AlbumsList = (props) => {

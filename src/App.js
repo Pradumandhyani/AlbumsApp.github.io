@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Routes, Route } from "react-router-dom";
-import AddAlbum from './AddAlbum';
-import AlbumsList from './AlbumsList';
+import AddAlbum from './AddAlbum.js';
+import AlbumsList from './AlbumsList.js';
 // import Navbar from './Navbar'
-import UpdateAlbum from './UpdateAlbum';
+import UpdateAlbum from './UpdateAlbum.js';
 
 export default class App extends Component {
   constructor() {
@@ -118,8 +118,8 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <Routes>
-          <Route path='/' element={<AlbumsList albums={this.state.albums} setUpdateAlbum={this.setUpdateAlbum} deleteAlbumFromList={this.deleteAlbumFromList} />}></Route>
+        <Routes basename="/AlbumsApp.github.io">
+          <Route path='/' exact element={<AlbumsList albums={this.state.albums} setUpdateAlbum={this.setUpdateAlbum} deleteAlbumFromList={this.deleteAlbumFromList} />}></Route>
           <Route path='/add-album' element={<AddAlbum addAlbumToList={this.addAlbumToList} />}></Route>
           <Route path='/update-album' element={<UpdateAlbum album={this.state.updateAlbum} updateAlbumInList={this.updateAlbumInList} />}></Route>
         </Routes>
